@@ -103,19 +103,13 @@ const Analyzer = () => {
         {/* Header Section */}
         <div className="flex justify-between items-center mb-10 border-b border-slate-800 pb-6">
           <div>
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
-              LogicGate Analyzer
+            <h1 className="text-3xl font-bold bg-linear-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
+              Stock Analyzer
             </h1>
             <p className="text-slate-500 text-sm mt-1 uppercase tracking-widest">
               Professional Risk Auditor
             </p>
           </div>
-          <button
-            onClick={handleLogout}
-            className="px-5 py-2 bg-red-500/10 text-red-400 border border-red-500/20 rounded-full hover:bg-red-500 hover:text-white transition-all text-sm font-medium"
-          >
-            Logout
-          </button>
         </div>
 
         {/* Input Form */}
