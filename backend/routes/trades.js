@@ -98,7 +98,7 @@ router.post("/analyze", protect, async (req, res) => {
         { role: "system", content: systemPrompt },
         { role: "user", content: userContent },
       ],
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-120b",
       response_format: { type: "json_object" }, // Forces JSON output
     });
 

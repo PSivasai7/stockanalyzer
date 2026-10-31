@@ -16,7 +16,7 @@ async function testConnection() {
     console.log("Connected succesfully!!");
     (await connection).release();
   } catch (err) {
-    console.log("error", err.message);
+    console.log("error in database connnection", err.message);
   }
 }
 testConnection();
