@@ -20,6 +20,24 @@ A high-level, full-stack application designed to validate trading logic, reduce 
 
 ## Getting Started
 
+## Screenshots
+
+### 1. User Registration
+![Signup Page](screenshots/signup.png)
+
+### 2. AI Trade Analysis
+![Trade Analysis Form](screenshots/form_page.png)
+
+### 3. AI Analysis in Progress
+![AI Auditing Trade Thesis](screenshots/form.png)
+
+### 4. AI Response
+![Logic Vault](screenshots/response.png)
+
+### 5 Logic Vault – Trade History
+![Logic Vault](screenshots/history.png)
+
+
 ### Prerequisites
 
 * Node.js
